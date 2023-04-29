@@ -1,0 +1,335 @@
+.container{
+    // height:100vh;
+   
+   background-color: #414759;
+//    max-height: max-content;
+}
+// @media only screen and (min-width: 1000px) {
+//     .MB{
+//         background-color: red; 
+//         // height: 100vh;  
+//         // padding:40px;
+//     }
+//   }
+  // .MB{
+  //   background-color: gray;
+  // }
+.button button{
+    background-color: blue;
+    border-radius: 20%;
+    height: 20px;
+    width:20px;
+    margin:30px 0 0 30px;
+    border:blue;
+   }
+   .button .mat-icon{
+     background-color: white;
+     border-radius: 50%;
+     color:white;
+     width:5px;
+     height:5px;
+     margin-bottom: 2px;
+   }
+   h1{
+     color:black;
+     font-weight: 500;
+    //  font-size: 25px;
+    padding-top:50px;
+     margin:10px 0 0 30px;
+    
+   }
+   #mid{
+      color:#7E8088;
+     // color:#F4F5F9;
+     margin-left:30px;
+     font-size: 12px;
+     margin-top:20px; 
+     font-weight: 400;
+   }
+   .example-card{
+     border-radius: 10px;
+    
+       background-color: #2A3343;
+       color:white;
+      margin: 50px 10px 10px 20px;
+   }
+ 
+   .example-header-image {
+     background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+     background-size: cover;
+     border-radius: 40px;
+     height:25px;
+     width:25px;
+   }
+   mat-card-title{
+     font-size: 10px;
+     color:#E7EDFA;
+     margin-left:-7px;
+     }
+ 
+   mat-card-subtitle{
+     color:gray;
+     font-size: 10px;
+     margin-left:-7px;
+    //  padding-bottom: 15px;
+   }
+ .mat-content {
+   padding-bottom: 15px;
+    font-size:11px;
+   color: #E7EDFA;
+   margin-top:-15px;
+   padding-bottom:0px;
+   }
+  
+   .flex{
+    background-color:red;
+    padding:10px;
+    border-radius: 15px;
+    margin-top:35px;
+    margin-bottom: 80px;
+   }
+   .example-card .material-icons{
+    color:#414759;
+     font-size: 60px;
+      margin-top: -15px;
+    
+    margin-right:220px;
+    transform:rotate(180deg);
+    padding-bottom:0%;
+  }
+  .boxtop{
+    display:flex;
+    gap:5px;
+    margin-left:150px;
+    padding-bottom: 5px;
+ }
+  .box{
+    width:6px; height:6px;
+    background-color: blue;
+    border-radius:15px;
+    flex-direction: row;
+    
+  }
+  .box1{
+    width:6px; height:6px;
+    background-color: gray;
+    border-radius:10px;
+    flex-direction: row;
+    
+  }
+
+.right  h2{
+    //  margin-top:40px;;
+    color:black;
+    font-weight: 900;
+}
+p{
+  color:#797D85;
+  font-weight: 500;
+}
+.example-form {
+  margin-top:40px;
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    color:#797D85;
+    font-weight: 500;
+  }
+  .example-full-width {
+    width: 90%;
+  }
+  mat-form-field input::placeholder {
+    opacity: 1 !important;
+    color: black!important;
+  }
+  #last{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 500;
+    
+  }
+  .left{
+    background-color: #F3F5F9;
+    border-radius: 10px;
+  }
+  .right{
+    border-radius: 10px;
+  
+  }
+
+
+// .container {
+//   background-color: gray;
+//   // height:100vh;
+// }
+
+// .flex {
+//   background-color: green;
+//   padding: 10px;
+
+//   border-radius: 15px;
+
+//   margin:50px;
+// }
+
+// .right {
+//   background-color: red;
+//   border-radius: 15px;
+//   padding-left:30px;
+// }
+
+// .left {
+//   background-color: #F3F5F9;
+//   border-radius: 15px;
+// }
+
+// //left
+// .left .button button {
+//   background-color: blue;
+//   border-radius: 20%;
+//   height: 20px;
+//   width: 20px;
+//   margin: 30px 0 0 30px;
+//   border: blue;
+// }
+
+// .left .button .mat-icon {
+//   background-color: white;
+//   border-radius: 50%;
+//   color: white;
+//   width: 5px;
+//   height: 5px;
+//   margin-bottom: 2px;
+// }
+
+// .left h1 {
+//   color: black;
+//   font-weight: 500;
+//   //  font-size: 25px;
+//   padding-top: 50px;
+//   margin: 10px 0 0 30px;
+
+// }
+
+// #mid {
+//   color: #7E8088;
+//   // color:#F4F5F9;
+//   margin-left: 30px;
+//   font-size: 12px;
+//   margin-top: 20px;
+//   font-weight: 400;
+// }
+
+// .example-card {
+//   border-radius: 10px;
+
+//   background-color: #2A3343;
+//   color: white;
+//   margin: 50px 10px 10px 20px;
+// }
+
+// .example-header-image {
+//   background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+//   background-size: cover;
+//   border-radius: 40px;
+//   height: 25px;
+//   width: 25px;
+// }
+
+// mat-card-title {
+//   font-size: 10px;
+//   color: #E7EDFA;
+//   margin-left: -7px;
+// }
+
+// mat-card-subtitle {
+//   color: gray;
+//   font-size: 10px;
+//   margin-left: -7px;
+//   //  padding-bottom: 15px;
+// }
+
+// .mat-content {
+//   padding-bottom: 15px;
+//   font-size: 11px;
+//   color: #E7EDFA;
+//   margin-top: -15px;
+//   padding-bottom: 0px;
+// }
+
+// .example-card .material-icons {
+//   color: #414759;
+//   font-size: 60px;
+//   margin-top: -15px;
+
+//   margin-right: 230px;
+//   transform: rotate(180deg);
+//   padding-bottom: 0%;
+// }
+
+// .boxtop {
+//   display: flex;
+//   gap: 5px;
+//   margin-left: 150px;
+//   padding-bottom: 25px;
+// }
+
+// .box {
+//   width: 6px;
+//   height: 6px;
+//   background-color: blue;
+//   border-radius: 15px;
+//   flex-direction: row;
+
+// }
+
+// .box1 {
+//   width: 6px;
+//   height: 6px;
+//   background-color: gray;
+//   border-radius: 10px;
+//   flex-direction: row;
+
+// }
+
+// //right
+//  h2 {
+//   //  margin-top:40px;;
+//   color: black;
+//   font-weight: 900;
+//   // padding-top: 15px;
+// }
+
+// .right p {
+//   color: #797D85;
+//   font-weight: 500;
+
+// }
+
+// .example-form {
+//   margin-top: 40px;
+//   min-width: 150px;
+//   max-width: 500px;
+//   width: 100%;
+//   color: #797D85;
+//   font-weight: 500;
+// }
+
+// .example-full-width {
+//   width: 90%;
+// }
+
+// mat-form-field input::placeholder {
+//   opacity: 1 !important;
+//   color: black !important;
+// }
+
+// #last {
+//   text-align: center;
+//   margin-top: 20px;
+//   font-weight: 500;
+
+// }
+.mat-raised-button{
+  font-size: 50px;
+}

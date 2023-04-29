@@ -1,0 +1,186 @@
+.container {
+  background-color: gray;
+}
+
+.Flex {
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.left {
+  background-color: #F3F5F9;
+  border-radius: 15px;
+  padding-top: 40px;
+}
+
+.left .button button {
+  background-color: blue;
+  border-radius: 20%;
+  height: 20px;
+  width: 20px;
+  margin: 30px 0 0 30px;
+  border: blue;
+}
+
+.left .button .mat-icon {
+  background-color: white;
+  border-radius: 50%;
+  color: white;
+  width: 5px;
+  height: 5px;
+  margin-bottom: 2px;
+}
+
+.left h1 {
+  color: black;
+  font-weight: 500;
+  padding-top: 50px;
+  margin: 10px 0 0 30px;
+}
+
+#mid {
+  color: #7E8088;
+  margin-left: 30px;
+  font-size: 12px;
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+.example-card {
+  max-width: 400px;
+  margin-bottom: 8px;
+  margin: 70px 10px 10px 20px;
+  background-color: #2A3343;
+  color: white;
+  border-radius: 15px;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+  border-radius: 40px;
+  height: 25px;
+  width: 25px;
+}
+
+mat-card-title {
+  font-size: 10px;
+  color: #E7EDFA;
+  margin-left: -7px;
+}
+
+mat-card-subtitle {
+  color: gray;
+  font-size: 10px;
+  margin-left: -7px;
+}
+
+mat-card-content {
+  color: #E7EDFA;
+  margin-top: -5px;
+}
+
+.mat-content {
+  padding-bottom: 15px;
+  font-size: 11px;
+  color: #E7EDFA;
+  margin-top: -15px;
+  padding-bottom: 0px;
+}
+
+.example-card .material-icons {
+  color: #414759;
+  font-size: 60px;
+  margin-top: -15px;
+  margin-right: 300px;
+  transform: rotate(180deg);
+  padding-bottom: 0%;
+}
+
+.boxtop {
+  display: flex;
+  gap: 5px;
+  margin-left: 180px;
+  padding-bottom: 20px;
+}
+
+.box {
+  width: 6px;
+  height: 6px;
+  background-color: blue;
+  border-radius: 15px;
+  flex-direction: row;
+}
+
+.box1 {
+  width: 6px;
+  height: 6px;
+  background-color: gray;
+  border-radius: 10px;
+  flex-direction: row;
+}
+
+.right-box {
+  background-color: white;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+
+.right-box p {
+  padding-bottom: 10px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 18px;
+  color: black;
+  margin: 50px 0 0 0px;
+}
+
+.right-box p,
+label {
+  color: #7E8088;
+}
+
+.right-box label {
+  font-size: 12px;
+}
+
+.example-form .example-full-width input::placeholder {
+  font-size: 14px;
+  color: #000;
+}
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+
+}
+
+.example-form button {
+  border-radius: 5px;
+}
+
+.lastln {
+  padding: 50px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.lastln a {
+  text-decoration: none;
+}
+
+.login {
+  color: #3D3D8C;
+  font-weight: 500;
+}

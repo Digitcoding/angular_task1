@@ -1,0 +1,58 @@
+<div fxLayout="row" fxLayoutAlign="center center" class="container">
+  <div fxLayout="row" class="Flex" fxLayoutAlign="center center" fxLayoutGap="5px" fxFlex="60%" fxLayout.lt-md="column"
+    fxFlex.lt-sm="100%" fxLayoutGap="5px" fxFlexOrder.lt-md="100%">
+    <div fxFlex="50%" class="left" fxFlexOrder.lt-md="100%" fxFlex.lt-md="fit-content" fxFlex.lt-sm="fit-content"
+      fxFlexOrder="1" fxFlexOrder.lt-md="2">
+      <div class="button">
+        <button><mat-icon>help</mat-icon></button>
+      </div>
+      <h1>Let us help you run your<br>freelance business</h1>
+      <p id="mid">Our registration process is quick and easy,taking<br>no more than 10 minutes to complete.</p>
+      <mat-card class="example-card">
+        <div fxFlex="row-reverse">
+          <i class="material-icons">format_quote</i>
+        </div>
+        <mat-card-content>
+          {{longText}}
+        </mat-card-content>
+        <mat-card-title-group>
+          <mat-card-header fxFlex="row">
+            <img mat-card-avatar src="../assets/person1.jpeg" class="example-header-image">
+            <mat-card-title>Jonus Kim</mat-card-title>
+            <mat-card-subtitle>Product Designer</mat-card-subtitle>
+          </mat-card-header>
+        </mat-card-title-group>
+      </mat-card>
+      <div class="boxtop">
+        <div class="box"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+      </div>
+    </div>
+    <!--right-->
+    <div fxFlex="50%" class="right-box" fxFlexOrder="2" fxFlexOrder.lt-md="100%" fxFlexOrder.lt-md="1">
+      <h2 class="title">Get Started</h2>
+      <p>Create your account now</p>
+      <form class="example-form">
+        <label>Full name</label>
+        <mat-form-field class="example-full-width" appearance="outline">
+          <input type="text" matInput placeholder="Alex Parkinson" >
+        </mat-form-field>
+        <label>Email</label>
+        <mat-form-field class="example-full-width" appearance="outline">
+          <input type="email" matInput placeholder="alex@example.com">
+        </mat-form-field>
+        <label style="display: flex; justify-content:space-between;">
+          Password <div style="color: green;">Strong!</div>
+        </label>
+        <mat-form-field class="example-full-width" appearance="outline">
+          <input type="password" matInput id="pass" placeholder="..........">
+        </mat-form-field>
+        <button mat-flat-button class="example-full-width" color="primary">Sign up</button>
+      </form>
+      <p class="lastln">Have an account? <a href=""><span class="login">Login</span></a></p>
+    </div>
+  </div>
+</div>
+<button routerLink="practice">Practice</button>
+<router-outlet></router-outlet>
